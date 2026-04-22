@@ -9,3 +9,5 @@ services:
                                     value: production
                                           - key: DATA_DIR
                                                   value: /tmp
+                                                        - key: NODE_VERSION
+                                                                value: 22.12.0
