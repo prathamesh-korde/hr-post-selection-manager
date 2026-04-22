@@ -1,0 +1,28 @@
+.status-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.status-submitted {
+  background-color: #ffc107;
+}
+
+.status-pending {
+  background-color: #17a2b8;
+}
+
+.status-accepted {
+  background-color: #28a745;
+}
+
+.status-declined {
+  background-color: #dc3545;
+}
+
+.status-sent {
+  background-color: #007bff;
+}
