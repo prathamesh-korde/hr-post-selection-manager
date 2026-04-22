@@ -1,15 +1,11 @@
 services:
   - type: web
-    name: hr-post-selection-manager
-    env: node
-    buildCommand: npm install --legacy-peer-deps && npm run web-build
-    startCommand: node web-server.js
-    envVars:
-      - key: NODE_ENV
-        value: production
-      - key: DATA_DIR
-        value: /data
-    disk:
-      name: hr-db
-      mountPath: /data
-      sizeGB: 1
+      name: hr-post-selection-manager
+          env: node
+              buildCommand: npm install --legacy-peer-deps --ignore-scripts
+                  startCommand: node web-server.js
+                      envVars:
+                            - key: NODE_ENV
+                                    value: production
+                                          - key: DATA_DIR
+                                                  value: /tmp
